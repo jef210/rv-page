@@ -44,6 +44,48 @@ $(document).ready(function(){
         $('#drum-building-workshop').fadeToggle();
     }); 
 
+    $('#rhythmic-foundations').hide();
+    $('.rhythmic-foundations').on('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('#rhythmic-foundations').fadeToggle();
+    });
+
+    $('#advanced-rhythmic-foundations').hide();
+    $('.advanced-rhythmic-foundations').on('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('#advanced-rhythmic-foundations').fadeToggle();
+    });   
+
+    $('#digital-readers-theatre').hide();
+    $('.digital-readers-theatre').on('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('#digital-readers-theatre').fadeToggle();
+    });
+    
+    $('#drum-circle-event').hide();
+    $('.drum-circle-event').on('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('#drum-circle-event').fadeToggle();
+    });
+
+    $('#after-school-enrich').hide();
+    $('.after-school-enrich').on('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('#after-school-enrich').fadeToggle();
+    });
+
+    $('#rhythmic-foundations-instructors').hide();
+    $('.rhythmic-foundations-instructors').on('click', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('#rhythmic-foundations-instructors').fadeToggle();
+    });
+
 });
 
 })();

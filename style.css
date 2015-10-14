@@ -48,7 +48,7 @@ section {
 }
 
 .drum-section{
-    background-color: linen;
+    background-color: powderblue;
     color: grey;
     margin-top: 40px;
 
@@ -63,7 +63,7 @@ section {
 #drums-row {
     max-height: 400px;
     max-width: 400px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 3px solid darkslategrey;
     margin: 0 auto;
     margin-top: 55px;
@@ -74,8 +74,8 @@ section {
 
 }
 .programs-section {
-    background-color: indianred;
-    color: black;
+    background-color: linen;
+    color: dimgrey;
 }
 
 #philosophy {
