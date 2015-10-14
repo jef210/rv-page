@@ -1,6 +1,11 @@
 (function(){
 
 $(document).ready(function(){
+    $('.nav li a').on('click', function(){
+    // $('.btn-navbar').click(); //bootstrap 2.x
+    $('.navbar-toggle').click() //bootstrap 3.x by Richard
+});
+
     // Toggle the section content 
     $('#about-text').hide();
     $('.about-section').on('click', function(e){
