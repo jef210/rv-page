@@ -6,18 +6,40 @@ body {
 h1 {
     
 }
-title {
-    color:blue;
+
+a {
+    color: slategrey;
+}
+a:hover {
+    color: darkslategrey;
 }
 #navbar-brand-top {
     color: black;
 }
 .navbar-default .navbar-nav>li>a {
-    color: black;
+    color: slategrey;
+    margin-top: 10px;
+    font-size: 120%;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: darkslategrey;
 }
 .navbar {
-    border-bottom: 3px solid black;
-    background-color: ivory;
+    border-bottom: 5px solid darkslategrey;
+    background-color: ghostwhite;
+    height: 70px;
+
+}
+#about-wheel {
+    max-height: 60px;
+    max-width: 60px;
+    margin-top: -10px;
+    display: inline-block;
+    float: left;
+}
+.navbar-text {
+    margin-top:0px;
+    display: inline-block;
 }
 
 section {
@@ -25,50 +47,61 @@ section {
     padding: 15px;
 }
 
-.about-section{
-    background-color: lightblue;
+.drum-section{
+    background-color: linen;
     color: grey;
-    padding-top: 20px;
+    margin-top: 40px;
 
 }
-#about-wheel {
-    margin: 0 auto;
-    height: 30%;
-    width: 30%;
-    margin-top: 25px;
-    padding: 30px;
+.drum-section h1 {
+    font-weight: bold;
+    text-decoration: underline;
 }
+#drum-text {
+    display: hidden;
+}
+#drums-row {
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 3px solid darkslategrey;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
 #programs {
     padding-top: 30px;
 
 }
 .programs-section {
-    background-color: red;
+    background-color: indianred;
+    color: black;
 }
-#process {
-    padding: 30px;
+
+#philosophy {
+    /*padding: 30px;*/
 }
-.process-section {
-    background-color: gold;
-}
-#history{
-    padding: 30px;
-}
-.history-section {
-    background-color: black;
-    color: lightgrey;
+.philosophy-section {
+    background-color: dimgrey;
+    color: whitesmoke;
 }
 #data {
-    padding: 30px;
+    /*padding: 30px;*/
 }
 .data-section {
 
-    background-color: lightblue;
+    background-color: ivory;
+}
+#about{
+
+}
+.about-section{
+
 }
 #footer{
     padding: 30px;
 }
 
 .footer-section {
-    background-color: gold;
+    background-color: lightgrey;
 }
