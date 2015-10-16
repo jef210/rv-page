@@ -9,10 +9,12 @@ body {
     font-family: arial;
 }
 .container {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 .row {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 h1 {
     
@@ -26,10 +28,6 @@ a:hover {
 }
 section {
     border-bottom: 3px solid black;
-    /*padding: 15px;*/
-    background-color: hsla(225, 23%, 74%, 0.8);
-    /*border-radius: 20px;*/
-    /*border: 1px solid hsla(225, 23%, 74%, 0.18);*/
 }
 #navbar-brand-top {
     color: black;
@@ -80,19 +78,21 @@ button.navbar-toggle {
 
 .content {
     margin: 0 auto;
-    padding: 30px;   
+    padding: 0px;   
 }
 
 .section-box {
-    background-color: hsla(225, 23%, 74%, 0.2);
-    border-radius: 20px;
-    border: 3px solid hsla(225, 23%, 74%, 0.4);
-    margin-top: 22px;
+    background-color: hsla(225, 23%, 74%, .9);
+    border-radius: 5px;
+    border: 4px solid hsla(225, 28%, 78%, 1);
 }
 .section-box:hover {
-    background-color: hsla(225, 23%, 74%, 0.4);
+    background-color: hsla(225, 23%, 74%, 0.8);
     border-radius: 20px;
-    border: 3px solid hsla(225, 23%, 74%, 0.6);
+    border: 5px solid hsla(225, 23%, 74%, 0.9);
+}
+.section-box a {
+    color: black;
 }
 
 .section-header {
@@ -102,23 +102,34 @@ button.navbar-toggle {
     margin-top: -10px;
 }
 
-.top-lower {
-    margin-top: 45px;
+.top-box {
+    margin: 0 auto;
+    margin-top: 32px;
+    color: black;
+    /*padding: 50px;*/
+    text-align: center;
 }
 
 #drums { 
-border-top: 70px solid transparent;
+/*border-top: 70px solid transparent;
 margin-top: -50px;
 -webkit-background-clip: padding box;
 -moz-background-clip: padding;
-background-clip: padding-box;
+background-clip: padding-box;*/
 }
 
 .drum-section{
     background-color: powderblue;
-    color: grey;
     padding-top: 40px;
-
+}
+.drum-background {
+    background-image: url('img/girl-hands-raised-leader.svg');
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 .drum-section h1 {
     font-weight: bold;
@@ -127,31 +138,57 @@ background-clip: padding-box;
 
 
 #drums-row {
-    max-height: 80%;
-    max-width: 80%;
-    border-radius: 15px;
-    border: 3px solid darkslategrey;
+    max-height: 60%;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 3px solid grey;
     margin: 0 auto;
-    margin-top: 12px;
+}
+#drums-row:hover {
+    border: 4px solid grey;
 }
 
-#programs { 
+.line-up-id-click { 
 border-top: 50px solid transparent;
 margin-top: -50px;
 -webkit-background-clip: padding box;
 -moz-background-clip: padding;
 background-clip: padding-box;
 }
-
-#programs-img {
-    border-radius:50%;
-    border: 8px solid darkslategrey;
+#programs {
 
 }
+
+#programs-img {
+    border-radius: 5px;
+    border: 3px solid grey;
+    margin-right: 20px;
+
+}
+.program-list-box {
+    padding: 20px;
+    background-color: hsla(225, 23%, 74%, 0.6);
+    margin-top: 70px;
+    border-radius: 5px;
+    border: 3px solid grey;
+}
+.program-list-box ul {
+    list-style-type: none;
+}
+
+.program-list-desc li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.program-list-box h3 {
+    text-align: center;
+}
+
 .programs-section {
-    background-color: linen;
+    background-color: ghostwhite;
     color: dimgrey;
-    /*margin-top: 25px;*/
+    /*margin-top: 25px;
 }
 
 #philosophy {
