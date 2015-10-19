@@ -70,6 +70,7 @@ $(document).ready(function(){
         e.stopPropagation();
         $('#rhythmic-foundations-instructors').fadeToggle();
     });
+    // refactor to 1 function for all fadetoggles
 
 });
 
